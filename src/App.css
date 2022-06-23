@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: start;
+  
+}
+.container {
+  background-color: lightgray;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.wg{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  align-items: center;
+  margin-top: 15px;
+}
+.fg{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  align-items: center;
+  margin-top: 15px;
+}
+.header {
+  margin-top: 10px;
+}
+.wgd {
+  font-weight: italic;
+}
+.input {
+  height: 30px;
+}
+.input2 {
+  height: 50px;
+  width: 60px;  
+}
+.fgt {
+  margin-top: 5px;
+  height: 50px;
+  width: 60px;
+}
+.ft{
+  padding-top: 5px;
+}
+.incm{
+  padding-top: 5px;
+  margin-left: 2px;
+}
+.incmmm {
+  /* margin-top: 5px; */
+  height: 50px;
+  width: 60px;
+}
+.incmm{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+.fgtt {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.secon{
+  margin-left: 5px;
+}
+.wgdd{
+  
+}
+.but{
+  margin-top: 20px;
+  width: 120px;
+}
+.container2{
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+.result{
+  background-color: gray;
+  display: flex;
+  width: 300px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
